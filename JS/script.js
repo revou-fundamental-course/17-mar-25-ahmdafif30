@@ -5,7 +5,7 @@ function validasiInput() {
     alert("Input tidak boleh kosong!");
     return false;
   } else if (isNaN(sisi) || sisi <= 0) {
-    alert("Masukkan angka yang valid!");
+    alert("Angka harus diatas 0!");
     return false;
   }
 
